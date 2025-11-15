@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    /* box-sizing: d; */
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+.bg-primary{
+    background-color: blue;
+}
+.bg-warning{
+    background-color: yellow;
+}
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.p-5{
+    padding: 2.5rem;
+}
+
+.px-2 {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+.py-5 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.ps-3 {
+    padding-right: 1rem;
+}
+.pe-4{
+    padding-left: 2rem;
+}
+.border{
+    border: 10px solid black;
+
+}
+.outline{
+    outline: 10px solid red;
+}
+.hr{
+    height: 3px;
+    background-color: red;
+}
+.m-0{
+    margin: 0;
+}
+.m-5{
+    margin: 2.5rem;
+    margin: 2.5rem 1rem;
+    margin: 2.5rem 1rem 3rem;
+    margin: 2.5rem 1rem 3rem 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.d-block{
+    display: block
+}
+.d-inline{
+    display: inline;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
